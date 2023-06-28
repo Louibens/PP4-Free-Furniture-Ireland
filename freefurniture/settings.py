@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-louibens-pp4freefurnitu-s8my4mgpion.ws-eu101.gitpod.io', 'free-furniture-ie.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['free-furniture-ie-a29dbb0497ba.herokuapp.com', 'localhost']
 
 
 # Application definition
