@@ -47,10 +47,17 @@ main {
 a.nav-link {
     color: var(--brown);
     font-size: 2rem !important;
+    letter-spacing: 2px;
+    margin: 8px
 }
 
 img.logo {
     width: 8rem
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: end;
 }
 
 /* Footer */
