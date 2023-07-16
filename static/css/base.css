@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Libre+Baskerville&display=swap');
+
+:root {
+    /** Fonts */
+    --title: 'Libre Baskerville', serif;
+    --main-font: 'DM Sans', serif;
+
+    /** Colours */
+    --green: #4C7847;
+    --off-white: #f5fbef;
+    --brown: #5D4F39;
+    --blue: #768DC3;
+    --grey: #847669;
+    --white: #fff;
+
+    /* Utils */
+    --small-box-shadow: 1px -1px 7px 0 #00000061;
+    --border: 1px solid #00000030;
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title)
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: var(--white);
+}
+
+/* Header */
+
+.navbar {
+    background-color: var(--off-white) !important;
+    box-shadow: var(--small-box-shadow) !important;
+}
+
+a.nav-link {
+    color: var(--brown);
+    font-size: 2rem !important;
+}
+
+img.logo {
+    width: 8rem
+}
+
+/* Footer */
+
+footer {
+    flex-shrink: 0;
+    background-color: var(--off-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: var(--border);
+}
+
+.social-icon {
+    height: 2rem;
+    margin: 1rem
+}
